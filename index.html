@@ -337,11 +337,13 @@ footer{
 <a href="mailto:samanayesha.05@gmail.com" class="btn">Email</a>
 
 <a href="#projects" class="btn">Projects</a>
-<a href="SAMAN_AYESHA_1.pdf" 
+<!-- <a href="SAMAN_AYESHA_1.pdf" 
     target="_blank"
    class="btn">
    Resume
-</a>
+</a> -->
+
+<button class="resume-btn">My Resume </button>
     
 </a>
 </div>
@@ -526,6 +528,11 @@ View LinkedIn Profile
 <footer>
 <p>© 2026 Saman Ayesha | All  RIGHTS RESERVED</p>
 </footer>
-
+<script>
+    let btn = document.getElementsByClassName("resume-btn")[0]
+    btn.addEventListener("click",function(){
+        window.open("SAMAN_AYESHA_1.pdf")
+    })
+</script>
 </body>
 </html>
